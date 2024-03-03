@@ -6,9 +6,10 @@ function Paslon() {
       <>
         <NavbarAdmin/>
         <div className="w-full h-screen mx-auto bg-white">
-          <h1 className="font-extrabold text-5xl text-[#5E5400] text-center pt-10">LIST PASLON</h1>
+          <h1 className="font-extrabold text-5xl text-[#5E5400] text-center pt-10 mb-10">LIST PASLON</h1>
             <div className="px-28">
-              <table className="w-full mt-10 border-[#828282] ">
+              <a href="/dashboard/add-paslon" className="button bg-[#5E5A00] text-white p-3 rounded-lg font-bold">Add Paslon</a>
+              <table className="w-full mt-5 border-[#828282] ">
                 <thead className="text-left bg-[#cecece]">
                   <tr>
                     <th className="border border-[#828282] py-2 pl-2">No Urut</th>
