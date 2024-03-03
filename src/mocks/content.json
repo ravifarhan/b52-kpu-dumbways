@@ -1,0 +1,35 @@
+{
+    "DataContent" : 
+    [
+        {
+            "id"    : 1,
+            "date"  : "Senin, 03 JAN 2024",
+            "title" : "KPU TETAPKAN 3 MENTOR TERBAIK",
+            "author": "Super Admin"
+        },
+        {
+            "id"    : 2,
+            "date"  : "Senin, 04 JAN 2024",
+            "title" : "KPU TETAPKAN 3 MENTOR TERBAIK",
+            "author": "Super Admin"
+        },
+        {
+            "id"    : 3,
+            "date"  : "Senin, 05 JAN 2024",
+            "title" : "KPU TETAPKAN 3 MENTOR TERBAIK",
+            "author": "Super Admin"
+        },
+        {
+            "id"    : 4,
+            "date"  : "Senin, 06 JAN 2024",
+            "title" : "KPU TETAPKAN 3 MENTOR TERBAIK",
+            "author": "Super Admin"
+        },
+        {
+            "id"    : 5,
+            "date"  : "Senin, 07 JAN 2024",
+            "title" : "KPU TETAPKAN 3 MENTOR TERBAIK",
+            "author": "Super Admin"
+        }
+    ]
+}

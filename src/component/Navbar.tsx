@@ -1,4 +1,5 @@
 import * as React from "react"
+import Logo from "../assets/img/logo.png"
 
 export default function Navbar() {
   const [isLogin, setIsLogin] = React.useState<boolean>(false)
@@ -11,25 +12,25 @@ export default function Navbar() {
       <div className="container mx-28">
         <div className="flex justify-center gap-5 items-center">
           <div className="">
-            <a href="#"><img src="./src/img/logo.png" alt="Logo Dumbways.id"/></a>
+            <a href="/"><img src={Logo} alt="Logo Dumbways.id"/></a>
           </div>
           <div className="text-white font-bold text-2xl mr-auto">
-            <a href="#">PEMILU PRESIDEN DUMBWAYS.ID</a>
+            <a href="/">PEMILU PRESIDEN DUMBWAYS.ID</a>
           </div>
           <div className="text-white text-xl">
-            <a href="#">Partai</a>
+            <a href="/partai">Partai</a>
           </div>
           <div className="text-white text-xl">
             |
           </div>
           <div className="text-white text-xl">
-            <a href="#">Paslon</a> 
+            <a href="/paslon">Paslon</a> 
           </div>
           <div className="text-white text-xl">
             | 
           </div>
           <div className="text-white text-xl">
-            <a href="#">Voting</a>
+            <a href="/voting">Voting</a>
           </div>
           {
             isLogin ?
